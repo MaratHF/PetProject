@@ -7,23 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0408D2092886B01C007628FA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408D2082886B01C007628FA /* Notifications.swift */; };
+		042CD87E288096830027CCF5 /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CD87D288096830027CCF5 /* RecommendationViewController.swift */; };
+		044517D928A3F7E900967C12 /* Радость.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 044517D828A3F7E900967C12 /* Радость.mp3 */; };
+		044D2DD028882283003EDE0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D2DCF28882283003EDE0A /* SceneDelegate.swift */; };
+		044D2DD42890337E003EDE0A /* NotificationTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D2DD32890337E003EDE0A /* NotificationTimeViewController.swift */; };
+		046C553328C9FFC400C9BF6E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C553228C9FFC400C9BF6E /* ProfileViewController.swift */; };
+		04ACEFE7287B20C900470086 /* PillMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACEFE6287B20C900470086 /* PillMarker.swift */; };
+		04ADF23D28CF78C00045683F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADF23C28CF78C00045683F /* LoginViewController.swift */; };
+		04ADF23F28D73C620045683F /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADF23E28D73C620045683F /* NoticeViewController.swift */; };
+		04B4F25B28731F1100FF9ABE /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4F25A28731F1100FF9ABE /* SetupViewController.swift */; };
+		04B4F25D28743CA900FF9ABE /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4F25C28743CA900FF9ABE /* DataStorage.swift */; };
+		04B4F25F2874686600FF9ABE /* SleepDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4F25E2874686600FF9ABE /* SleepDay.swift */; };
+		04B4F261287468CC00FF9ABE /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4F260287468CC00FF9ABE /* StorageManager.swift */; };
+		04BBE9E828C244C5002CE6AA /* ForAlarmSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBE9E728C244C4002CE6AA /* ForAlarmSettingsViewController.swift */; };
+		04BE181C28E46BC400F023A7 /* RecommendationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE181B28E46BC400F023A7 /* RecommendationCollectionViewCell.swift */; };
+		04BE181E28E48FFE00F023A7 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE181D28E48FFE00F023A7 /* GradientView.swift */; };
+		04E0C03E28DF48C100D71041 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0C03D28DF48C100D71041 /* SplashViewController.swift */; };
+		04E6698A28C74E5E00C1E055 /* AlarmMelodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6698828C74E5E00C1E055 /* AlarmMelodyTableViewCell.swift */; };
+		04E6698B28C74E5E00C1E055 /* AlarmMelodyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E6698928C74E5E00C1E055 /* AlarmMelodyTableViewCell.xib */; };
+		04E6699128C798DA00C1E055 /* Задор.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E6698C28C798D800C1E055 /* Задор.mp3 */; };
+		04E6699228C798DA00C1E055 /* Аннигиляция.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E6698D28C798D900C1E055 /* Аннигиляция.mp3 */; };
+		04E6699328C798DA00C1E055 /* Бодрость.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E6698E28C798D900C1E055 /* Бодрость.mp3 */; };
+		04E6699428C798DA00C1E055 /* Вдохновение.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E6698F28C798D900C1E055 /* Вдохновение.mp3 */; };
+		04E6699528C798DA00C1E055 /* Наслаждение.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E6699028C798DA00C1E055 /* Наслаждение.mp3 */; };
+		04E6699D28C8CF7000C1E055 /* WithSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6699B28C8CF7000C1E055 /* WithSwitchTableViewCell.swift */; };
+		04E6699E28C8CF7000C1E055 /* WithSwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E6699C28C8CF7000C1E055 /* WithSwitchTableViewCell.xib */; };
+		04EBE7B028B23CD800B34339 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBE7AF28B23CD800B34339 /* SettingsViewController.swift */; };
+		04EBE7B228B3C0A700B34339 /* AlarmSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBE7B128B3C0A700B34339 /* AlarmSettingsViewController.swift */; };
 		04F5E1C9286EE11E00CBEEA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E1C8286EE11E00CBEEA8 /* AppDelegate.swift */; };
-		04F5E1CB286EE11E00CBEEA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E1CA286EE11E00CBEEA8 /* SceneDelegate.swift */; };
-		04F5E1CD286EE11E00CBEEA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E1CC286EE11E00CBEEA8 /* ViewController.swift */; };
+		04F5E1CD286EE11E00CBEEA8 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E1CC286EE11E00CBEEA8 /* StatisticsViewController.swift */; };
 		04F5E1D0286EE11E00CBEEA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5E1CE286EE11E00CBEEA8 /* Main.storyboard */; };
 		04F5E1D2286EE12600CBEEA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F5E1D1286EE12600CBEEA8 /* Assets.xcassets */; };
 		04F5E1D5286EE12600CBEEA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5E1D3286EE12600CBEEA8 /* LaunchScreen.storyboard */; };
+		04FA7EC12882C29B00363266 /* AdditionalRecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7EC02882C29B00363266 /* AdditionalRecommendationViewController.swift */; };
+		04FA7EC32882D79900363266 /* DetailsRecommendationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7EC22882D79900363266 /* DetailsRecommendationTableViewCell.swift */; };
+		04FA7EC72883013C00363266 /* GeneralRecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7EC62883013C00363266 /* GeneralRecommendationViewController.swift */; };
+		089A6A18DE8194C5BB03B124 /* Pods_PetProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4514C30473A0F1AF4C3AC031 /* Pods_PetProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0408D2082886B01C007628FA /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		042CD87D288096830027CCF5 /* RecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
+		044517D828A3F7E900967C12 /* Радость.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Радость.mp3"; sourceTree = "<group>"; };
+		044D2DCF28882283003EDE0A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		044D2DD32890337E003EDE0A /* NotificationTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTimeViewController.swift; sourceTree = "<group>"; };
+		046C553228C9FFC400C9BF6E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		04ACEFE6287B20C900470086 /* PillMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillMarker.swift; sourceTree = "<group>"; };
+		04ADF23C28CF78C00045683F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04ADF23E28D73C620045683F /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		04B4F25A28731F1100FF9ABE /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		04B4F25C28743CA900FF9ABE /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		04B4F25E2874686600FF9ABE /* SleepDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDay.swift; sourceTree = "<group>"; };
+		04B4F260287468CC00FF9ABE /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		04BBE9E728C244C4002CE6AA /* ForAlarmSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForAlarmSettingsViewController.swift; sourceTree = "<group>"; };
+		04BE181B28E46BC400F023A7 /* RecommendationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationCollectionViewCell.swift; sourceTree = "<group>"; };
+		04BE181D28E48FFE00F023A7 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		04E0C03D28DF48C100D71041 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		04E6698828C74E5E00C1E055 /* AlarmMelodyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmMelodyTableViewCell.swift; sourceTree = "<group>"; };
+		04E6698928C74E5E00C1E055 /* AlarmMelodyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmMelodyTableViewCell.xib; sourceTree = "<group>"; };
+		04E6698C28C798D800C1E055 /* Задор.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Задор.mp3"; sourceTree = "<group>"; };
+		04E6698D28C798D900C1E055 /* Аннигиляция.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Аннигиляция.mp3"; sourceTree = "<group>"; };
+		04E6698E28C798D900C1E055 /* Бодрость.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Бодрость.mp3"; sourceTree = "<group>"; };
+		04E6698F28C798D900C1E055 /* Вдохновение.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Вдохновение.mp3"; sourceTree = "<group>"; };
+		04E6699028C798DA00C1E055 /* Наслаждение.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Наслаждение.mp3"; sourceTree = "<group>"; };
+		04E6699B28C8CF7000C1E055 /* WithSwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithSwitchTableViewCell.swift; sourceTree = "<group>"; };
+		04E6699C28C8CF7000C1E055 /* WithSwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WithSwitchTableViewCell.xib; sourceTree = "<group>"; };
+		04EBE7AF28B23CD800B34339 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		04EBE7B128B3C0A700B34339 /* AlarmSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSettingsViewController.swift; sourceTree = "<group>"; };
 		04F5E1C5286EE11E00CBEEA8 /* PetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F5E1C8286EE11E00CBEEA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04F5E1CA286EE11E00CBEEA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04F5E1CC286EE11E00CBEEA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04F5E1CC286EE11E00CBEEA8 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		04F5E1CF286EE11E00CBEEA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04F5E1D1286EE12600CBEEA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F5E1D4286EE12600CBEEA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F5E1D6286EE12600CBEEA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FA7EC02882C29B00363266 /* AdditionalRecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalRecommendationViewController.swift; sourceTree = "<group>"; };
+		04FA7EC22882D79900363266 /* DetailsRecommendationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRecommendationTableViewCell.swift; sourceTree = "<group>"; };
+		04FA7EC62883013C00363266 /* GeneralRecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralRecommendationViewController.swift; sourceTree = "<group>"; };
+		4514C30473A0F1AF4C3AC031 /* Pods_PetProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A3094109E9385F1CFC0A8D /* Pods-PetProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetProject.debug.xcconfig"; path = "Target Support Files/Pods-PetProject/Pods-PetProject.debug.xcconfig"; sourceTree = "<group>"; };
+		CBE73A0BE84A0D006591DC3F /* Pods-PetProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetProject.release.xcconfig"; path = "Target Support Files/Pods-PetProject/Pods-PetProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +95,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				089A6A18DE8194C5BB03B124 /* Pods_PetProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04E6699628C798EE00C1E055 /* Melodies */ = {
+			isa = PBXGroup;
+			children = (
+				044517D828A3F7E900967C12 /* Радость.mp3 */,
+				04E6698D28C798D900C1E055 /* Аннигиляция.mp3 */,
+				04E6698E28C798D900C1E055 /* Бодрость.mp3 */,
+				04E6698F28C798D900C1E055 /* Вдохновение.mp3 */,
+				04E6698C28C798D800C1E055 /* Задор.mp3 */,
+				04E6699028C798DA00C1E055 /* Наслаждение.mp3 */,
+			);
+			path = Melodies;
+			sourceTree = "<group>";
+		};
 		04F5E1BC286EE11E00CBEEA8 = {
 			isa = PBXGroup;
 			children = (
 				04F5E1C7286EE11E00CBEEA8 /* PetProject */,
 				04F5E1C6286EE11E00CBEEA8 /* Products */,
+				9899F6D92FAB0EA75C011FFC /* Pods */,
+				D2A1890A33CE9AA123F80013 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +136,57 @@
 		04F5E1C7286EE11E00CBEEA8 /* PetProject */ = {
 			isa = PBXGroup;
 			children = (
+				04E6699628C798EE00C1E055 /* Melodies */,
 				04F5E1C8286EE11E00CBEEA8 /* AppDelegate.swift */,
-				04F5E1CA286EE11E00CBEEA8 /* SceneDelegate.swift */,
-				04F5E1CC286EE11E00CBEEA8 /* ViewController.swift */,
+				04E6699B28C8CF7000C1E055 /* WithSwitchTableViewCell.swift */,
+				04E6699C28C8CF7000C1E055 /* WithSwitchTableViewCell.xib */,
+				044D2DCF28882283003EDE0A /* SceneDelegate.swift */,
+				0408D2082886B01C007628FA /* Notifications.swift */,
+				04F5E1CC286EE11E00CBEEA8 /* StatisticsViewController.swift */,
+				042CD87D288096830027CCF5 /* RecommendationViewController.swift */,
+				04BE181B28E46BC400F023A7 /* RecommendationCollectionViewCell.swift */,
+				04EBE7B128B3C0A700B34339 /* AlarmSettingsViewController.swift */,
+				04FA7EC22882D79900363266 /* DetailsRecommendationTableViewCell.swift */,
+				04E6698828C74E5E00C1E055 /* AlarmMelodyTableViewCell.swift */,
+				04ACEFE6287B20C900470086 /* PillMarker.swift */,
+				04E6698928C74E5E00C1E055 /* AlarmMelodyTableViewCell.xib */,
+				04FA7EC62883013C00363266 /* GeneralRecommendationViewController.swift */,
+				04B4F25A28731F1100FF9ABE /* SetupViewController.swift */,
+				04B4F260287468CC00FF9ABE /* StorageManager.swift */,
+				04FA7EC02882C29B00363266 /* AdditionalRecommendationViewController.swift */,
+				04B4F25C28743CA900FF9ABE /* DataStorage.swift */,
+				04B4F25E2874686600FF9ABE /* SleepDay.swift */,
 				04F5E1CE286EE11E00CBEEA8 /* Main.storyboard */,
-				04F5E1D1286EE12600CBEEA8 /* Assets.xcassets */,
+				04BE181D28E48FFE00F023A7 /* GradientView.swift */,
+				04E0C03D28DF48C100D71041 /* SplashViewController.swift */,
+				04ADF23C28CF78C00045683F /* LoginViewController.swift */,
+				04ADF23E28D73C620045683F /* NoticeViewController.swift */,
+				04BBE9E728C244C4002CE6AA /* ForAlarmSettingsViewController.swift */,
+				04EBE7AF28B23CD800B34339 /* SettingsViewController.swift */,
+				046C553228C9FFC400C9BF6E /* ProfileViewController.swift */,
+				044D2DD32890337E003EDE0A /* NotificationTimeViewController.swift */,
 				04F5E1D3286EE12600CBEEA8 /* LaunchScreen.storyboard */,
+				04F5E1D1286EE12600CBEEA8 /* Assets.xcassets */,
 				04F5E1D6286EE12600CBEEA8 /* Info.plist */,
 			);
 			path = PetProject;
+			sourceTree = "<group>";
+		};
+		9899F6D92FAB0EA75C011FFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68A3094109E9385F1CFC0A8D /* Pods-PetProject.debug.xcconfig */,
+				CBE73A0BE84A0D006591DC3F /* Pods-PetProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2A1890A33CE9AA123F80013 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4514C30473A0F1AF4C3AC031 /* Pods_PetProject.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F5E1D9286EE12600CBEEA8 /* Build configuration list for PBXNativeTarget "PetProject" */;
 			buildPhases = (
+				6796C77584D0DA7D104BCE3E /* [CP] Check Pods Manifest.lock */,
 				04F5E1C1286EE11E00CBEEA8 /* Sources */,
 				04F5E1C2286EE11E00CBEEA8 /* Frameworks */,
 				04F5E1C3286EE11E00CBEEA8 /* Resources */,
+				A259764D6C2B5593E6BEF6F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +249,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E6699428C798DA00C1E055 /* Вдохновение.mp3 in Resources */,
+				04E6699228C798DA00C1E055 /* Аннигиляция.mp3 in Resources */,
+				044517D928A3F7E900967C12 /* Радость.mp3 in Resources */,
+				04E6699328C798DA00C1E055 /* Бодрость.mp3 in Resources */,
+				04E6698B28C74E5E00C1E055 /* AlarmMelodyTableViewCell.xib in Resources */,
+				04E6699528C798DA00C1E055 /* Наслаждение.mp3 in Resources */,
+				04E6699128C798DA00C1E055 /* Задор.mp3 in Resources */,
 				04F5E1D5286EE12600CBEEA8 /* LaunchScreen.storyboard in Resources */,
+				04E6699E28C8CF7000C1E055 /* WithSwitchTableViewCell.xib in Resources */,
 				04F5E1D2286EE12600CBEEA8 /* Assets.xcassets in Resources */,
 				04F5E1D0286EE11E00CBEEA8 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +265,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6796C77584D0DA7D104BCE3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A259764D6C2B5593E6BEF6F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetProject/Pods-PetProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetProject/Pods-PetProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PetProject/Pods-PetProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04F5E1C1286EE11E00CBEEA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F5E1CD286EE11E00CBEEA8 /* ViewController.swift in Sources */,
+				04B4F25B28731F1100FF9ABE /* SetupViewController.swift in Sources */,
+				04E6699D28C8CF7000C1E055 /* WithSwitchTableViewCell.swift in Sources */,
+				04ADF23D28CF78C00045683F /* LoginViewController.swift in Sources */,
+				04F5E1CD286EE11E00CBEEA8 /* StatisticsViewController.swift in Sources */,
+				04FA7EC32882D79900363266 /* DetailsRecommendationTableViewCell.swift in Sources */,
+				04BE181C28E46BC400F023A7 /* RecommendationCollectionViewCell.swift in Sources */,
+				04B4F25D28743CA900FF9ABE /* DataStorage.swift in Sources */,
+				04BBE9E828C244C5002CE6AA /* ForAlarmSettingsViewController.swift in Sources */,
+				04B4F261287468CC00FF9ABE /* StorageManager.swift in Sources */,
+				0408D2092886B01C007628FA /* Notifications.swift in Sources */,
+				04FA7EC72883013C00363266 /* GeneralRecommendationViewController.swift in Sources */,
+				04EBE7B028B23CD800B34339 /* SettingsViewController.swift in Sources */,
 				04F5E1C9286EE11E00CBEEA8 /* AppDelegate.swift in Sources */,
-				04F5E1CB286EE11E00CBEEA8 /* SceneDelegate.swift in Sources */,
+				044D2DD028882283003EDE0A /* SceneDelegate.swift in Sources */,
+				04EBE7B228B3C0A700B34339 /* AlarmSettingsViewController.swift in Sources */,
+				04E0C03E28DF48C100D71041 /* SplashViewController.swift in Sources */,
+				04FA7EC12882C29B00363266 /* AdditionalRecommendationViewController.swift in Sources */,
+				04ACEFE7287B20C900470086 /* PillMarker.swift in Sources */,
+				042CD87E288096830027CCF5 /* RecommendationViewController.swift in Sources */,
+				04E6698A28C74E5E00C1E055 /* AlarmMelodyTableViewCell.swift in Sources */,
+				046C553328C9FFC400C9BF6E /* ProfileViewController.swift in Sources */,
+				04ADF23F28D73C620045683F /* NoticeViewController.swift in Sources */,
+				04BE181E28E48FFE00F023A7 /* GradientView.swift in Sources */,
+				044D2DD42890337E003EDE0A /* NotificationTimeViewController.swift in Sources */,
+				04B4F25F2874686600FF9ABE /* SleepDay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,18 +478,23 @@
 		};
 		04F5E1DA286EE12600CBEEA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A3094109E9385F1CFC0A8D /* Pods-PetProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 993FT752Y5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PetProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Хранитель сна";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,24 +504,29 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		04F5E1DB286EE12600CBEEA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBE73A0BE84A0D006591DC3F /* Pods-PetProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 993FT752Y5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PetProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Хранитель сна";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +536,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
